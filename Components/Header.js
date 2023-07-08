@@ -11,10 +11,10 @@ const Header = () => {
       <span className="ml-3 text-3xl font-bold">Todolist</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-2">
-      <Link href="/" className="mr-5 hover:text-gray-900">Home</Link>
-      <Link href="/" className="mr-5 hover:text-gray-900">About</Link>
-      <Link href="/todos" className="mr-5 hover:text-gray-900">My Todos</Link>
-      <Link href="/" className="mr-5 hover:text-gray-900">Contact us</Link>
+      <Link href="/" className="mr-5 hover:text-gray-900 mx-2 font-semibold">Home</Link>
+      <Link href="/" className="mr-5 hover:text-gray-900 mx-2">About</Link>
+      <Link href="/todos" className="mr-5 hover:text-gray-900 mx-2">My Todos</Link>
+      <Link href="/" className="mr-5 hover:text-gray-900 mx-2">Contact us</Link>
     </nav>
     
   </div>
